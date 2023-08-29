@@ -13,17 +13,17 @@
 
         <div class="sidebar">
             <header><h1>Digital Dash</h1></header>
-            <div class="nav-bar">
-                <ul>
-                    <li>Home</li>
-                    <li>Profile</li>
-                    <li>Messages</li>
-                    <li>History</li>
-                    <li>Tasks</li>
-                    <li>Communities</li>
+            <div class="nav-column">
+                <ul>                 
+                    <li><a href="">Profile</a></li>
+                    <li><a href="">Messages</a></li>
+                    <li><a href="">History</a></li>
+                    <li><a href="">Tasks</a></li>
+                    <li><a href="">Communities</a></li>
                 </ul>
             </div>
-            <div class="admin-bar">
+            
+            <div class="admin-column">
                 <ul>
                     <li>Settings</li>
                     <li>Support</li>
@@ -39,9 +39,11 @@
                     <input type="search" id="search">
                 </div>
                 <div class="user-container">
-                    <div id="notification"></div>
-                    <div id="icon"></div>
-                    <div id="name"></div>
+                    <ul>
+                        <li><a href="">Bell</a></li>
+                        <li><a href="">Icon</a></li>
+                        <li><a href="">tem</a></li>
+                    </ul>
                 </div>
             </div>
 
@@ -62,15 +64,17 @@
 
             <div class="projects-container">
                 <h2>My Projects</h2>
-                <div class="card">Rock-Paper-Scissors</div>
-                <div class="card">Pixel Sketch</div>
-                <div class="card">Calculator</div>
-                <div class="card"></div>
-                <div class="card"></div>
-                <div class="card"></div>
+                <div class="card-container">
+                    <div class="card">Rock-Paper-Scissors</div>
+                    <div class="card">Pixel Sketch</div>
+                    <div class="card">Calculator</div>
+                    <div class="card"></div>
+                    <div class="card"></div>
+                    <div class="card"></div>
+                </div>
             </div>
         
-            <div class="bulletin-bar">
+            <div class="bulletin-column">
                 <div class="bulletin-container">
                     <h2>Planned Projects</h2>
                     <div class="bulletin-card">
@@ -81,16 +85,18 @@
                         </ul>
                     </div>
                 </div>
-                
+
                 <div class="bulletin-container">
                     <h2>Training Path</h2>
-                    <ul>
-                        <li>React</li>
-                        <li>Express</li>
-                        <li>Playwright</li>
-                        <li>CI/CD</li>
-                        <li>Performance Testing</li>
-                    </ul>
+                    <div class="bulletin-card">
+                        <ul>
+                            <li>React</li>
+                            <li>Express</li>
+                            <li>Playwright</li>
+                            <li>CI/CD</li>
+                            <li>Performance Testing</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
